@@ -1,63 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AI Falcon Trading</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      padding: 2rem;
+      max-width: 700px;
+    }
+
+    img.logo {
+      max-width: 180px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #cfd8dc;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.8rem 1.5rem;
+      background-color: #00bcd4;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background-color: #0097a7;
+    }
+  </style>
 </head>
-
-<body class="bg-gray-900 text-white font-sans">
-  <header class="bg-gray-800 p-4 shadow-md">
-    <div class="container mx-auto flex items-center justify-between">
-      <img src="logo.png" alt="AI Falcon Trading Logo" class="h-12">
-      <nav class="space-x-6">
-        <a href="#about" class="hover:text-yellow-400">About</a>
-        <a href="#services" class="hover:text-yellow-400">Services</a>
-        <a href="#contact" class="hover:text-yellow-400">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <section class="text-center py-24 bg-gradient-to-br from-gray-800 to-black">
-    <h1 class="text-5xl font-bold mb-4">AI-Powered Market Intelligence</h1>
-    <p class="text-lg mb-6">Smarter trading through real-time analytics and prediction</p>
-    <a href="#contact" class="bg-yellow-400 text-black font-semibold px-6 py-3 rounded hover:bg-yellow-300 transition">Get Started</a>
-  </section>
-
-  <section id="about" class="py-16 px-6 max-w-4xl mx-auto">
-    <h2 class="text-3xl font-bold mb-4">About Us</h2>
-    <p class="text-gray-300">AI Falcon Trading leverages the power of artificial intelligence to help traders and investors make data-driven decisions. Our mission is to make financial analytics faster, smarter, and more accessible for everyone.</p>
-  </section>
-
-  <section id="services" class="bg-gray-800 py-16 px-6 max-w-6xl mx-auto">
-    <h2 class="text-3xl font-bold mb-8 text-center">Our Services</h2>
-    <div class="grid md:grid-cols-3 gap-8">
-      <div class="bg-gray-700 p-6 rounded shadow-md">
-        <h3 class="text-xl font-semibold mb-2">Market Forecasting</h3>
-        <p class="text-gray-300">Predictive analytics for stocks, commodities, and crypto using advanced models.</p>
-      </div>
-      <div class="bg-gray-700 p-6 rounded shadow-md">
-        <h3 class="text-xl font-semibold mb-2">AI Signal Generator</h3>
-        <p class="text-gray-300">Get buy/sell alerts powered by real-time market data and AI interpretation.</p>
-      </div>
-      <div class="bg-gray-700 p-6 rounded shadow-md">
-        <h3 class="text-xl font-semibold mb-2">Risk Management</h3>
-        <p class="text-gray-300">Quantitative models to help reduce risk and optimize returns.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="py-16 px-6 max-w-4xl mx-auto">
-    <h2 class="text-3xl font-bold mb-6">Contact Us</h2>
-    <p>Email: <a href="mailto:hello@aifalcontrading.com" class="text-yellow-400">hello@aifalcontrading.com</a></p>
-    <p>Follow us on <a href="#" class="text-yellow-400">LinkedIn</a> | <a href="#" class="text-yellow-400">GitHub</a></p>
-  </section>
-
-  <footer class="text-center py-6 bg-gray-800">
-    <p class="text-gray-500">&copy; 2025 AI Falcon Trading. All rights reserved.</p>
-  </footer>
+<body>
+  <div class="container">
+    <img src="company logo.png" alt="AI Falcon Trading Logo" class="logo" />
+    <h1>AI Falcon Trading</h1>
+    <p>Smart Market Insights. Powered by AI. Driven by Intelligence.</p>
+    <a href="#" class="button">Coming Soon</a>
+  </div>
 </body>
-
 </html>
